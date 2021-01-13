@@ -1,13 +1,12 @@
 import React from 'react'
 
-import logo from '../assets/images/logo.svg';
+import logo from '../assets/images/logo-rlyeh-circle.png';
 
 const Header = (props) => (
     <header id="header" className="alt">
         <span className="logo"><img src={logo} alt="" /></span>
-        <h1>Stellar</h1>
-        <p>Just another free, fully responsive site template<br />
-        design by <a href="https://html5up.net">HTML5 UP</a>.</p>
+        <h1>CDP</h1>
+        <p>Nos juntamos virtualmente a ver pelis y debatirlas.</p>
     </header>
 )
 

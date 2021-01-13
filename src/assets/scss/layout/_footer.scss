@@ -7,22 +7,19 @@
 /* Footer */
 
 	#footer {
-		@include vendor('display', 'flex');
-		@include vendor('flex-wrap', 'wrap');
 		@include padding(5em, 5em);
-		width: calc(100% + #{_size(element-margin)});
-		margin: 0 0 (_size(element-margin) * 1.5) (_size(element-margin) * -1);
-
-		> * {
-			width: calc(50% - #{_size(element-margin)});
-			margin-left: _size(element-margin);
-		}
-
+		
 		.copyright {
 			width: 100%;
 			margin: (_size(element-margin) * 1.25) 0 _size(element-margin) 0;
 			font-size: 0.8em;
 			text-align: center;
+		}
+
+		.center {
+			display: flex;
+			flex-flow: row;
+			justify-content: center;
 		}
 
 		@include breakpoint(large) {

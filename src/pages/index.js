@@ -3,9 +3,13 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
 import pic01 from '../assets/images/pic01.jpg'
+import picKaen from '../assets/images/avatars/kaen.jpg'
+import picSaio from '../assets/images/avatars/saio.jpg'
+import picJules from '../assets/images/avatars/jules.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
+import Tweet from '../components/Tweet'
 
 class Index extends React.Component {
   constructor(props) {
@@ -37,6 +41,27 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
+          <section id="tweets" className="main">
+            <div className="tweet-list">
+              <Tweet
+                direction='left'
+                title='kaen'
+                img={picKaen}
+                text='Ah we alta peli' />
+              <Tweet
+                direction='right'
+                title='saio'
+                img={picSaio}
+                text='La verdad que todas las pelis muy chotas :)' />
+              <Tweet
+                direction='left'
+                title='jules'
+                img={picJules}
+                text='El pasar del tiempo en esta película esta levemente distorsionado
+                hacia un ritmo posfuturistaestructuralista' />
+            </div>
+          </section>
+
           <section id="intro" className="main">
             <div className="spotlight">
               <div className="content">

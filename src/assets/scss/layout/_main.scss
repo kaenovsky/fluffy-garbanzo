@@ -7,8 +7,9 @@
 /* Main */
 
 	#main {
-		@include color(invert);
+		color:white;
 		border-radius: _size(border-radius-main);
+		background-color: transparent;
 
 		> .main {
 			@include padding(5em, 5em);

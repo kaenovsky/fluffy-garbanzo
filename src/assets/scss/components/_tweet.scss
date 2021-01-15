@@ -1,0 +1,35 @@
+#tweets{
+  .tweet-list{
+    .tweet{
+      display: flex;
+      &.tweet-left{
+        flex-direction: row;
+      }
+      &.tweet-right{
+        flex-direction: row-reverse;
+        text-align: right;
+        margin-left: auto;
+      }
+
+      .tweet-img{
+        padding: 0 8px;
+        img {
+          border-radius: 99px;
+        }
+      }
+
+      .tweet-inner{
+        .tweet-header{
+
+        }
+        .tweet-body{
+          max-width: 500px;
+        }
+        .tweet-footer{
+          display: flex;
+          justify-content: space-around;
+        }
+      }
+    }
+  }
+}

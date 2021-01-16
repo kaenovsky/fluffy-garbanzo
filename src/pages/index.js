@@ -118,7 +118,7 @@ class Index extends React.Component {
           <section id="second" className="main special">
             <header className="major">
               <h2>Están Invitades</h2>
-                  <span className="image-fit">
+                  <span className="image flyer">
                     <img src={pic05} alt="" />
                   </span>
             </header>

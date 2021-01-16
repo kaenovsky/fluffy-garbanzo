@@ -18,6 +18,12 @@
 			max-width: 16em;
 		}
 
+		&.flyer
+		
+		img {
+			max-width: 100%;
+		}
+
 		&.left,
 		&.right {
 			max-width: 40%;

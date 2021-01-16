@@ -9,10 +9,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'cine-debate-pandemia',
-        short_name: 'starter',
+        name: 'cine debate pandemia',
+        short_name: 'CDP',
         start_url: '/',
-        background_color: '#155799',
+        background_color: '#efa8b0',
         theme_color: '#663399',
         display: 'minimal-ui',
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.

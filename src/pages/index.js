@@ -127,7 +127,7 @@ class Index extends React.Component {
           <section id="cta" className="main special">
             <header className="major">
               <h2>Sumate a nuestro grupo de Telegram</h2>
-              <a to="/generic" className="button special">
+              <a href="https://t.me/CineDebatePandemia" target='_blank' className="button special">
                     Unirse a Telegram /CDP 
               </a>
             </header>

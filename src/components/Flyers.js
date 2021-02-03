@@ -6,6 +6,7 @@ import image2 from '../assets/images/flyers/viernes-28-11.jpg'
 import image3 from '../assets/images/flyers/viernes-20-11.jpg'
 import image4 from '../assets/images/flyers/viernes-06-11.jpg'
 
+import '../assets/scss/components/_flyers.scss';
 
 function Flyers() {
   const slideStyle = {

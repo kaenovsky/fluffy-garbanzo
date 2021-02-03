@@ -22,7 +22,6 @@ function Flyers() {
 
     return (
         <Carousel autoplay>
-
             <div style={slideStyle}> <img src={image1} style={imgStyle} /> </div>
             <div style={slideStyle}> <img src={image2} style={imgStyle} /> </div>
             <div style={slideStyle}> <img src={image3} style={imgStyle} /> </div>

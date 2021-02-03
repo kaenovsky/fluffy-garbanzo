@@ -31,6 +31,7 @@ class Index extends React.Component {
     this.setState(() => ({ stickyNav: true }))
   }
 
+  
   render() {
     return (
       <Layout>

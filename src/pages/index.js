@@ -15,6 +15,9 @@ import Layout from '../components/layout'
 import Nav from '../components/Nav'
 import Tweet from '../components/Tweet'
 
+import Flyers from '../components/Flyers'
+import 'antd/dist/antd.css';
+
 class Index extends React.Component {
   constructor(props) {
     super(props)
@@ -31,6 +34,7 @@ class Index extends React.Component {
     this.setState(() => ({ stickyNav: true }))
   }
 
+  
   render() {
     return (
       <Layout>
@@ -115,14 +119,8 @@ class Index extends React.Component {
             </ul>
           </section>
 
-          <section id="second" className="main special">
-            <header className="major">
-              <h2>Están Invitades</h2>
-                  <span className="image flyer">
-                    <img src={pic05} alt="" />
-                  </span>
-            </header>
-          </section>
+        
+        <Flyers />
 
           <section id="cta" className="main special">
             <header className="major">

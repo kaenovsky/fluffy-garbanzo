@@ -12,11 +12,13 @@
 
 		h1 {
 			margin: 0 0 (_size(element-margin) * 0.125) 0;
+			color: white;
 		}
 
 		p {
 			font-size: 1.25em;
 			letter-spacing: _font(letter-spacing);
+			color: white;
 		}
 
 		&.alt {

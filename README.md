@@ -1,6 +1,6 @@
 # CDP: Cine Debate Pandemia
 
-La idea de este sitio es recopilar los mejores momentos de nuestro recorrido por el CDP 2020.
+La idea de este sitio es recopilar los mejores momentos de nuestro recorrido por el CDP 2020. 
 
 El proyecto está desarrollado con [Gatsby JS](https://www.gatsbyjs.com/) un framework de React Open Source. Y el template de 'starter' está basado en [Gatsby Starter Stellar](https://www.gatsbyjs.com/starters/codebushi/gatsby-starter-stellar).
 

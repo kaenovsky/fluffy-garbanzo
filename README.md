@@ -59,16 +59,21 @@ Para todo esto primero vamos a hacer nuestra propia **branch**.
 
 ### Step 3: Crear nuestra branch
 
-Crear una branch es, básicamente, copiar los archivos en una línea temporal paralela (todo muy sci-fi) para no afectar los archivos originales del proyecto.
+> Qué es una branch? 
+>
+> Crear una branch es, básicamente, crear una línea temporal paralela (todo muy sci-fi) donde vamos a tener una copia exacta de los archivos de otra rama. En esta nueva rama tenemos la tranquilidad no afectar la copia original de los archivos, y la libertad de hacer lo que querramos con ellos.
 
-Vamos a:
+Para eso vamos a:
 
 - Current branch
-- Name: 
-  - Pueden nombrar la rama como quieran, pero recomiendo usar nombres descriptivos: `feature/footer`, `fix/ajustes-mobile`, `assets/gifs`.
+- Name: Nombren como quieran, pero recomiendo usar nombres descriptivos: `feature/footer`, `fix/ajustes-mobile`, `assets/gifs`.
 - Create branch based on... `dev`
 
 Lo que hicimos acá es copiar todo lo que haya en la rama **dev** en nuestra rama propia nueva. 
+
+Se recomienda hacer **una rama por tema**, ejemplo: si querés hacer algo en el menú hacé una rama, si después pintó cambiar algo en el footer hacé otra específica para eso. 
+Podés hacer todo en una misma rama? Si. Es prolijo? No.
+
 
 ### Step 4: Remake, Remix, Rip-Off
 
@@ -81,37 +86,51 @@ También pueden abrirlo manualmente, es lo mismo.
 
 ### Step 5: Commitear
 
-Ahora tenemos que confirmar los cambios con un **commit**. Volvemos a Github Desktop, y en la parte superior izquierda, abajo de Current Repository hay una pestaña de **Changes** donde figuran los archivos que cambiaron/agregaron.
+Ahora tenemos que confirmar los cambios con un **commit**. 
+
+
+> Qué es un commit? 
+> 
+> Es como un Ctrl + S, es un punto de guardado. Es como pararte en un punto de la línea de tiempo del proyecto, sacarle una foto al estado actual de sus archivos y ponerle un rótulo que diga qué hiciste ahí, para que podamos volver a ese punto.
+>
+>Por eso se recomienda que si hiciste un cambio que te sirve, por más que sea algo chiquitito, hagas un **commit**, así podés quedarte tranqui de que podés volver ahí si rompés algo. 
+
+Volvemos a Github Desktop, y en la parte superior izquierda, abajo de Current Repository hay una pestaña de **Changes** donde figuran los archivos que cambiaron/agregaron.
 
 
 - Seleccionamos los archivos que querramos incluir. 
 - Abajo a la izquierda hay un recuadro para poner un mensaje de commit. De nuevo, pueden poner lo que quieran pero se recomienda ser descriptivos, ejemplo: "Subo imágenes de flyers", "Ajusto los estilos para mobile", "Agrego redes al footer", ponele.
 - Commit to [nuestra branch]
 
-Si van a la pestaña **History** pueden ver su commit.
-
-> Qué es un commit? 
-> 
-> Es como un Ctrl + S, es un punto de guardado. Es como pararte en un punto de la línea de tiempo del proyecto, sacarle una foto al estado actual de sus archivos y ponerle un rótulo que diga qué hiciste ahí, para que podamos volver a ese punto.
->
->Por eso se recomienda que si hiciste un cambio que te sirve, hagas un **commit**, así podés quedarte tranqui de que podés volver ahí si rompés algo.
+Si van a la pestaña **History** pueden ver los commits del proyecto, pueden hacer todos los que quieran, no sean tímides.
 
 ### Step 6: Pushear
-Simplemente hacemos clic arriba donde dice
+> Qué es un push? 
+>  
+> Es lo que hace que nuestra branch y sus commits, que hasta ahora sólo estuvieron en nuestra copia **local** (nuestra compu) suba al **remoto** (el que todes podemos ver [acá en el repo de github](https://github.com/kaenovsky/fluffy-garbanzo)).
+
+
+Simplemente hacemos clic donde dice
 - Push origin 
-
-Esto hace que nuestra branch y sus cambios, que hasta ahora sólo estuvieron en nuestra copia **local** (nuestra compu) suba al **remoto** (el que todes podemos ver en [el repo de github](https://github.com/kaenovsky/fluffy-garbanzo)).
-
-Pueden abrirlo justo después de hacer push para ver que aparece un cartel que dice ´[tu branch] had recent pushes 3 minutes ago´ para confirmar que está todo ok!
 
 
 ### Step 7: Pull request
-Si hicieron push y no tienen cambios Github Desktop les va a `Compare & pull request`. Si hacen clic los lleva a  una página donde pueden comparar con otras ramas y realizar el PR. 
 
-El pull request es una solicitud para que los cambios de tu branch se fusionen con otra branch. 
+> Qué es un Pull Request? 
+> 
+> El pull request es una solicitud para que los cambios de tu branch se comparen y se fusionen con otra branch **base**. 
 
-Si la compararan con `main` es muy probable que les diga "❌ Can’t automatically merge". Esto significa que algún archivo tiene conflictos (osea que en `main` hay un archivo que dice **X** en la línea 15, y en nuestra branch la misma línea del mismo archivo dice **Y**). En caso de mergearse habría que revisar los conflictos manualmente y determinar qué versión queremos.
 
-Si comparan con `dev` tendría que decir `✅ Able to merge` lo que significa que nuestros cambios pueden incorporarse automáticamente sin conflictos.
+Si hicieron push y no tienen más cambios Github Desktop les va a sugerir que creen un PR desde el botón `Create pull request`. Si hacen clic los lleva a una página en el navegador donde pueden comparar con otra rama y realizar el PR. 
 
-Luego podemos hacer un resumen de lo que hicimos (opcional pero recomendable!), etiquetar al alguien para que lo revise, abajo de todo podemos ver una comparativa de cada archivo a mergear. Cuando estamos le damos clic al botón verde que dice `Create pull request` y listo.
+Sino lo pueden hacer directo desde [este link](https://github.com/kaenovsky/fluffy-garbanzo/compare).
+
+Si la compararan con `main` es muy probable que les diga "❌ Can’t automatically merge". 
+
+Esto significa que algún archivo tiene conflictos (osea que en `main` hay un archivo que dice **X** en la línea 15, y en nuestra branch la misma línea del mismo archivo dice **Y**). En caso de mergearse habrá que revisar los conflictos manualmente y determinar qué versión queremos.
+
+Seleccionamos `dev`, tendría que decir `✅ Able to merge` lo que significa que nuestros cambios pueden incorporarse automáticamente sin conflictos. 
+
+Podemos hacer un resumen de lo que hicimos (opcional pero recomendable), etiquetar al alguien para que lo revise, abajo de todo podemos ver una comparativa de cada archivo a mergear. Cuando estamos le damos clic al botón verde que dice `Create pull request` y listo.
+
+Al mergearse todos los cambios que hicimos en nuestra branch van a pasar a formar parte de la rama `dev`. 

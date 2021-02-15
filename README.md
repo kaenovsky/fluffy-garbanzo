@@ -28,13 +28,11 @@ Vamos a ver el paso a paso para subir tus cambios al repo usando Github:
 
 1. Instalar **git** 
 2. **Clonar** el repo 
-3. Partiendo de la branch principal (dev), crear una **branch** nueva donde realizaremos nuestros cambios
-4. Crear/subir/remixear los archivos.
-5. Hacer un **commit**, es decir confirmar nuestros cambios.
-6. **Pushear** los cambios a nuestra branch
-7. Hacer un **pull request** para que nuestros cambios sean evaluados y, en caso de que esté todo bien, puedan ser incorporados a la branch pincipal sin romper nada :)
-
-Para quienes nunca usaron git ni la terminal de comandos, vamos a hacerlo a través de Github Desktop que lo descargan de acá
+3. Crear una **branch** 
+4. Remixear los archivos.
+5. Confirmar los cambios con un **commit**
+6. **Pushear** a nuestra branch
+7. Hacer **pull request** para que nuestros cambios sean evaluados y, en caso de que esté todo bien, puedan ser incorporados a la branch pincipal sin romper nada :)
 
 ### Step 1: Git
 Para les que nunca usaron git ni línea de comandos vamos a bajar [Github Desktop](https://desktop.github.com/) 
@@ -52,24 +50,42 @@ Lo instalan y lo abren
 - Pegan la URL del repositorio que en este caso es https://github.com/kaenovsky/fluffy-garbanzo.git
 
 Listo! Ya clonamos el repo, es decir que tenemos todos los archivos en nuestra compu. 
+Además de los archivos propios del proyecto (HTML, CSS, assets y demás) tenemos una carpeta oculta **.git**. Aunque no la veamos, es la que contiene todo el **control de versiones**: cada commit, cada branch, el repo remoto. 
 
-Además de los archivos propios del proyecto tenemos una carpeta oculta **.git**. Aunque no la veamos ni la toquemos directamente, es la que contiene todo el control de versiones del repo: cada commit, cada branch. Y es lo que nos permite meter la pata sabiendo que podemos volver sobre nuestros cambios. 
-
-Así podemos abrir, chusmear, duplicar, remixar y romper los archivos sin miedo, total si la cagamos podemos volver sobre nuestros pasos. 
+La historia del repo está acá. Es lo que nos permite copiar, pegar, duplicar, remixar y romper los archivos sin miedo, si la cagamos git nos permite volver sobre nuestros pasos. Gracias git <3
 
 ### Step 3: Crear nuestra branch
 
-Pero para esto primero necesitamos tener nuestra propia **branch**. Crear una branch es, básicamente, copiar los archivos de desarrollo en una línea temporal paralela (todo muy sci-fi) para no afectar la rama principal del proyecto.
+Para esto primero necesitamos nuestra propia **branch**. Crear una branch es, básicamente, copiar los archivos en una línea temporal paralela (todo muy sci-fi) para no afectar los archivos originales del proyecto.
+
+Vamos a:
 
 - Current branch
 - Name: 
   - Pueden nombrar la rama como quieran, pero recomiendo usar nombres descriptivos: `feature/footer`, `fix/ajustes-mobile`, `assets/gifs`.
 - Create branch based on... `dev`
 
-Lo que hicimos acá, es copiar todo lo que haya en la rama **dev**, dentro de nuestra rama.
+Lo que hicimos acá, es copiar todo lo que haya en la rama **dev**, dentro de nuestra rama propia. 
 
+### Step 4: Remake, Remix, Rip-Off
 
-### Step 4: Remake, Remix, Rip-Off: Nuestros cambios
+Ahora que tenemos A Branch of One's Own ya podemos cerrar Github Desktop y hacer lo que querramos. Por ejemplo, abrir el proyecto desde un editor de código y hacer algún cambio en `/src/pages/index.js` o subir imágenes a `src/assets/images`. 
+
 ### Step 5: Commitear
+
+Ahora tenemos que confirmar los cambios con un **commit**. Volvemos a Github Desktop, y en la parte superior izquierda, abajo de Current Repository hay una pestaña de **Changes**.
+
+Recomiendo hacer un commit por cada cambio.
+
+- Seleccionamos los archivos que querramos incluir. 
+- Abajo a la izquierda hay un recuadro para poner un mensaje de commit. De nuevo, pueden poner lo que quieran pero se recomienda ser descriptivos, ejemplo: "Subo imágenes de flyers", "Ajusto los estilos para mobile", "Agrego redes al footer", ponele.
+- Commit to [nuestra branch]
+
+Si van a la pestaña History pueden ver su commit.
+
+Qué es un commit? Es como hacer un Ctrl + S, es como un punto de guardado. Es como pararte en un punto de la línea de tiempo del proyecto, sacarle una foto al estado actual de sus archivos y ponerle un rótulo que diga qué hiciste ahí, para que si la cagamos podamos volver a ese punto.
+
 ### Step 6: Pushear
+
+
 ### Step 7: Pull request

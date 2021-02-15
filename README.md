@@ -24,15 +24,15 @@ Para contactarte con lxs admins de este proyecto, [sumate a nuestro canal de tel
 
 ## Git para todes
 
-Vamos a ver el paso a paso para subir tus cambios al repo usando Github:
+Vamos a ver el paso a paso para subir cosas acá usando Git:
 
 1. Instalar **git** 
 2. **Clonar** el repo 
 3. Crear una **branch** 
-4. Remixear los archivos.
-5. Confirmar los cambios con un **commit**
+4. Remixar archivos
+5. Confirmar cambios con un **commit**
 6. **Pushear** a nuestra branch
-7. Hacer **pull request** para que nuestros cambios sean evaluados y, en caso de que esté todo bien, puedan ser incorporados a la branch pincipal sin romper nada :)
+7. Hacer **pull request** para que nuestros cambios sean evaluados y, en caso de que esté todo bien, se pueda hacer un **merge**
 
 ### Step 1: Git
 Para les que nunca usaron git ni línea de comandos vamos a bajar [Github Desktop](https://desktop.github.com/) 
@@ -69,7 +69,8 @@ Lo que hicimos acá, es copiar todo lo que haya en la rama **dev**, dentro de nu
 
 ### Step 4: Remake, Remix, Rip-Off
 
-Ahora que tenemos A Branch of One's Own ya podemos cerrar Github Desktop y hacer lo que querramos. Por ejemplo, abrir el proyecto desde un editor de código y hacer algún cambio en `/src/pages/index.js` o subir imágenes a `src/assets/images`. 
+Ahora que tenemos A Branch of One's Own ya podemos cerrar Github Desktop y hacer lo que querramos. Por ejemplo, podemos abrir el proyecto desde un editor de código y hacer algún cambio en `/src/pages/index.js` o subir imágenes a `src/assets/images`. 
+
 
 ### Step 5: Commitear
 

@@ -73,9 +73,8 @@ Ahora que tenemos A Branch of One's Own ya podemos cerrar Github Desktop y hacer
 
 ### Step 5: Commitear
 
-Ahora tenemos que confirmar los cambios con un **commit**. Volvemos a Github Desktop, y en la parte superior izquierda, abajo de Current Repository hay una pestaña de **Changes**.
+Ahora tenemos que confirmar los cambios con un **commit**. Volvemos a Github Desktop, y en la parte superior izquierda, abajo de Current Repository hay una pestaña de **Changes** donde figuran los archivos que cambiaron.
 
-Recomiendo hacer un commit por cada cambio.
 
 - Seleccionamos los archivos que querramos incluir. 
 - Abajo a la izquierda hay un recuadro para poner un mensaje de commit. De nuevo, pueden poner lo que quieran pero se recomienda ser descriptivos, ejemplo: "Subo imágenes de flyers", "Ajusto los estilos para mobile", "Agrego redes al footer", ponele.
@@ -83,9 +82,24 @@ Recomiendo hacer un commit por cada cambio.
 
 Si van a la pestaña History pueden ver su commit.
 
-Qué es un commit? Es como hacer un Ctrl + S, es como un punto de guardado. Es como pararte en un punto de la línea de tiempo del proyecto, sacarle una foto al estado actual de sus archivos y ponerle un rótulo que diga qué hiciste ahí, para que si la cagamos podamos volver a ese punto.
+Qué es un commit? Es como hacer un Ctrl + S, es un punto de guardado. Es como pararte en un punto de la línea de tiempo del proyecto, sacarle una foto al estado actual de sus archivos y ponerle un rótulo que diga qué hiciste ahí, para que podamos volver a ese punto.
+Por eso se recomienda que si hiciste un cambio que te sirve, hagas un **commit**, así podés quedarte tranqui de que podés volver ahí si después rompés algo.
 
 ### Step 6: Pushear
+Simplemente hacemos clic en la tab
+- Push origin 
+
+Esto hace que nuestra branch y sus cambios, que hasta ahora sólo estuvieron en nuestra copia **local** (nuestra compu) suba al **remoto** (el que todes podemos ver en [el repo dentro de github](https://github.com/kaenovsky/fluffy-garbanzo)).
+Pueden abrirlo justo después de hacer push para ver que aparece un cartel que dice ´[tu branch] had recent pushes 3 minutes ago´ para confirmar que está todo ok!
 
 
 ### Step 7: Pull request
+Finalmente, dentro de ese cartel van a ver un botón verde que dice `Compare & pull request`. Si hacen clic los lleva a  una página donde pueden comparar con otras ramas y realizar el PR. 
+
+El pull request es una solicitud para que los cambios de tu branch se fusionen con otra branch. 
+
+Si la compararan con `main` es muy probable que les diga "❌ Can’t automatically merge". Esto significa que algún archivo tiene conflictos (osea que en `main` hay un archivo que dice **X** en la línea 15, y en nuestra branch la misma línea del mismo archivo dice **Y**). En caso de mergearse habría que revisar los conflictos manualmente y determinar qué versión queremos.
+
+Si comparan con `dev` tendría que decir `✅ Able to merge` lo que significa que nuestros cambios pueden incorporarse automáticamente sin conflictos.
+
+Luego podemos hacer un resumen de lo que hicimos (opcional pero recomendable!), etiquetar al alguien para que lo revise, abajo de todo podemos ver una comparativa de cada archivo a mergear. Cuando estamos le damos clic al botón verde que dice `Create pull request` y listo.

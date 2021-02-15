@@ -106,7 +106,7 @@ Pueden abrirlo justo después de hacer push para ver que aparece un cartel que d
 
 
 ### Step 7: Pull request
-Dentro de ese cartel van a ver un botón verde que dice `Compare & pull request`. Si hacen clic los lleva a  una página donde pueden comparar con otras ramas y realizar el PR. 
+Si hicieron push y no tienen cambios Github Desktop les va a `Compare & pull request`. Si hacen clic los lleva a  una página donde pueden comparar con otras ramas y realizar el PR. 
 
 El pull request es una solicitud para que los cambios de tu branch se fusionen con otra branch. 
 

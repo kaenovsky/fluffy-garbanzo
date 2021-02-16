@@ -40,8 +40,9 @@ No hay problema. Pasá por [acá](./gitflow.md).
 > Sumá alguna idea para hacer, o si viste algo en lo que te gustaría participar, adelante.
 
 - [ ] Completar el 'sobre el CDP' en la página
-- [ ] Otra cosa por hacer
-- [ ] Otra idea
+- [ ] seleccionar entre 6~12 gifs // Generar los gifs
+- [ ] organizar todos los flyers en un mismo formato (por ej. flyer-week-1.jpg, flyer-week-2.jpg, etc)
+- [ ] los tweets -> pensar cuántos van a ser (hasta 10? de dos líneas cada uno? los vamos mostrando de a poco con el mismo estilo de los flyers?)
 
 ## Canales de comunicación
 > En el canal de telegram votamos qué película vamos a ver y nos organizamos para hacer algunas actividades

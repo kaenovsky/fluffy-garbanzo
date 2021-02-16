@@ -7,7 +7,7 @@ La idea de este sitio es recopilar los mejores momentos de nuestro recorrido por
 El proyecto está desarrollado con [Gatsby JS](https://www.gatsbyjs.com/) un framework de React Open Source. Y el template de 'starter' está basado en [Gatsby Starter Stellar](https://www.gatsbyjs.com/starters/codebushi/gatsby-starter-stellar).
 
 ## Para contribuir
-> Seguí estos pasos para descargar el proyecto en tu compudora, probar los cambios que hagas y subirlos a la internet para el populo cinéfilo.
+> Seguí estos pasos para descargar el proyecto en tu computadora, probar los cambios que hagas y subirlos a la internet para el populo cinéfilo.
 
 Para utilizar Gatsby podés instalar gatsby-cli de forma global:
 

@@ -3,9 +3,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
 import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/militar.gif'
-import pic03 from '../assets/images/zombies.gif'
-import pic04 from '../assets/images/run.gif'
 import pic05 from '../assets/images/stalker.jpg'
 import picKaen from '../assets/images/avatars/kaen.jpg'
 import picSaio from '../assets/images/avatars/saio.jpg'
@@ -14,6 +11,7 @@ import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
 import Tweet from '../components/Tweet'
+import Gifs from '../components/Gifs'
 
 import Flyers from '../components/Flyers'
 import 'antd/dist/antd.css';
@@ -34,7 +32,7 @@ class Index extends React.Component {
     this.setState(() => ({ stickyNav: true }))
   }
 
-  
+
   render() {
     return (
       <Layout>
@@ -93,40 +91,15 @@ class Index extends React.Component {
             </div>
           </section>
 
-          <section id="first" className="main special">
-            <header className="major">
-              <h2>todes aman los gifs</h2>
-            </header>
-            <ul className="features">
-              <li>
-                <h3></h3>
-                  <span className="image">
-                    <img src={pic02} alt="" />
-                  </span>
-              </li>
-              <li>
-                <h3></h3>
-                  <span className="image">
-                    <img src={pic03} alt="" />
-                  </span>
-              </li>
-              <li>
-                <h3></h3>
-                  <span className="image">
-                    <img src={pic04} alt="" />
-                  </span>
-              </li>
-            </ul>
-          </section>
+        <Gifs />
 
-        
         <Flyers />
 
           <section id="cta" className="main special">
             <header className="major">
               <h2>Sumate a nuestro grupo de Telegram</h2>
               <a href="https://t.me/CineDebatePandemia" target='_blank' className="button special">
-                    Unirse a Telegram /CDP 
+                    Unirse a Telegram /CDP
               </a>
             </header>
           </section>

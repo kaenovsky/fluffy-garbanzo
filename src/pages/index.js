@@ -80,7 +80,7 @@ class Index extends React.Component {
                 </p>
                 <ul className="actions">
                   <li>
-                    <Link to="/generic" className="button">
+                    <Link to="/acerca-de" className="button">
                       Sobre /CDP
                     </Link>
                   </li>

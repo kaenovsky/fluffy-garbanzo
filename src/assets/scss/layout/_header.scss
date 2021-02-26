@@ -7,7 +7,7 @@
 /* Header */
 
 	#header {
-		@include padding(5em, 5em, (0, 0, -2em, 0));
+		@include padding(3em, 5em, (0, 0, -2em, 0));
 		text-align: center;
 
 		h1 {
@@ -22,7 +22,7 @@
 		}
 
 		&.alt {
-			@include padding(6em, 5em, (1em, 0, 0, 0));
+			@include padding(4em, 5em, (1em, 0, 0, 0));
 
 			h1 {
 				font-size: 3.25em;
@@ -47,6 +47,7 @@
 					display: block;
 					margin: 0 auto;
 					max-width: 75%;
+					width: 50%;
 				}
 			}
 		}

@@ -92,6 +92,8 @@ class Index extends React.Component {
             </div>
           </section>
 
+          <Flyers />
+
           <Gifs />
 
           <section id="cta" className="main special">
@@ -102,8 +104,6 @@ class Index extends React.Component {
               </a>
             </header>
           </section>
-
-          <Flyers />
         </div>
       </Layout>
     )

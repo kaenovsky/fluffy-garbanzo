@@ -44,6 +44,7 @@ class Index extends React.Component {
           onEnter={this._handleWaypointEnter}
           onLeave={this._handleWaypointLeave}
         ></Waypoint>
+
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
@@ -91,18 +92,18 @@ class Index extends React.Component {
             </div>
           </section>
 
-        <Gifs />
-
-        <Flyers />
+          <Gifs />
 
           <section id="cta" className="main special">
             <header className="major">
               <h2>Sumate a nuestro grupo de Telegram</h2>
-              <a href="https://t.me/CineDebatePandemia" target='_blank' className="button special">
+              <a href="https://t.me/CineDebatePandemia" target='_blank' className="button special button-sumate">
                     Unirse a Telegram /CDP
               </a>
             </header>
           </section>
+
+          <Flyers />
         </div>
       </Layout>
     )

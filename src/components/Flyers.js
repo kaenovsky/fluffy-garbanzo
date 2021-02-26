@@ -22,9 +22,11 @@ function Flyers() {
 
 
   return (
-    <section id="flyers">
+    <section id="flyers" className="main special">
+      <header className="major">
+        <h2>Flyers</h2>
+      </header>
 
-      <h2>Flyers</h2>
       <Carousel autoplay>
         <div style={slideStyle}> <img src={image1} style={imgStyle} /> </div>
         <div style={slideStyle}> <img src={image2} style={imgStyle} /> </div>

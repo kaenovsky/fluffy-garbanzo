@@ -16,9 +16,9 @@ const zamaPics = [
 
 const Gifs = props => {
   return (
-    <section id="first" className="main special">
+    <section id="gifs" className="main special">
       <header className="major">
-        <h2>todes aman los gifs</h2>
+        <h2>Todes amamos los gifs</h2>
       </header>
       <ul className="features-custom">
         {/*<li>

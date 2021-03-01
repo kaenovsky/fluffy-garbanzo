@@ -64,8 +64,7 @@ class Index extends React.Component {
                 direction='left'
                 title='jules'
                 img={picJules}
-                text='El pasar del tiempo en esta película esta levemente distorsionado
-                hacia un ritmo posfuturistaestructuralista' />
+                text='El tiempo en esta película es suspendido' />
             </div>
           </section>
 

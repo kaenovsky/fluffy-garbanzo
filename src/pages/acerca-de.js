@@ -28,18 +28,18 @@ class Generic extends React.Component {
               <img src={pic04} alt="" style={imgStyle} />
             </span>
             <p style={pStlye1}>
-              Desde el fondo del mundo subcibernético renace una cultura
+              Desde un mundo subcibernético renace la cultura
               torrentera cinéfila.
             </p>
             <p style={pStlye2}>
-              En busca de nuevas experiencias, nuevas ideas y nuevas amistades
-              nos hemos ido congregando en tiempos pandémicos para seguir
-              haciéndole frente a la vida.
+              En busca de nuevas experiencias, ideas y afectos
+              nos hemos congregado en tiempos pandémicos para seguir
+              haciéndole frente a la vida desde el compartir y abrir espacios.
             </p>
             <p style={pStlye3}>
-              Disfrutamos del arte, el gore, el absurdo y la birra.
+              Disfrutamos del arte, el gore, el absurdo, la birra y el vino.
             </p>
-            <p style={pStlye4}>Cuando quieras pasate y serás bienvenide.</p>
+            <p style={pStlye4}>Cuando quieras pasate por nuestro canal de Telegram y serás bienvenide.</p>
           </section>
         </div>
       </Layout>

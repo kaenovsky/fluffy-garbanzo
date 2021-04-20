@@ -22,7 +22,7 @@ function Flyers() {
 
 
   return (
-    <section id="flyers" className="main special">
+    <section id="flyers" className="special">
       <header className="major">
         <h2>Flyers</h2>
       </header>

@@ -14,6 +14,7 @@ import Tweet from '../components/Tweet'
 import Gifs from '../components/Gifs'
 
 import Flyers from '../components/Flyers'
+import Grid from '../components/Grid'
 import 'antd/dist/antd.css';
 
 class Index extends React.Component {
@@ -64,8 +65,7 @@ class Index extends React.Component {
                 direction='left'
                 title='jules'
                 img={picJules}
-                text='El pasar del tiempo en esta película esta levemente distorsionado
-                hacia un ritmo posfuturistaestructuralista' />
+                text='El tiempo en esta película es suspendido' />
             </div>
           </section>
 
@@ -93,6 +93,14 @@ class Index extends React.Component {
           </section>
 
           <Flyers />
+
+          <section>
+          <header class="major special">
+            <h2>Viñetas</h2>
+          </header>
+            <Grid />
+          </section>
+
 
           <Gifs />
 

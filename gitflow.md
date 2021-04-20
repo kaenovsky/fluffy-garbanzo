@@ -113,5 +113,6 @@ Al mergearse todos los cambios que hicimos en nuestra branch van a pasar a forma
 
 
 ## Todo esto es un WORK IN PROGRESS
-
-Si no pudiste seguirlo, te trabaste o algo pasá por [nuestro canal de telegram](https://t.me/CineDebatePandemia).
+Preguntas? Comentarios? Sugerencias? 
+No pudiste seguir alguno de los pasos, te trabaste o algo?
+Pasá por [nuestro canal de telegram](https://t.me/CineDebatePandemia).

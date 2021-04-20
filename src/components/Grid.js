@@ -14,10 +14,11 @@ import image11 from '../assets/images/frames/zama_pez_sintesis.jpg'
 
 import '../assets/scss/components/_grid.scss';
 
-function Flyers() {
+function Grid() {
 
 
   return (
+      
       <div className="grid">
         <div className="grid-item"> 
             <img className="grid-image" src={image1} /> 
@@ -56,4 +57,4 @@ function Flyers() {
   );
 }
 
-export default Flyers;
+export default Grid;

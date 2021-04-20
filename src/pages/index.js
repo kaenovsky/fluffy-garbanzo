@@ -14,6 +14,7 @@ import Tweet from '../components/Tweet'
 import Gifs from '../components/Gifs'
 
 import Flyers from '../components/Flyers'
+import Grid from '../components/Grid'
 import 'antd/dist/antd.css';
 
 class Index extends React.Component {
@@ -92,6 +93,14 @@ class Index extends React.Component {
           </section>
 
           <Flyers />
+
+          <section>
+          <header class="major special">
+            <h2>Viñetas</h2>
+          </header>
+            <Grid />
+          </section>
+
 
           <Gifs />
 
